@@ -10,7 +10,7 @@ function LoginPage() {
 
   const handleLogin = () => {
     console.log('Attempting login...');
-    if (username === 'admin' && password === 'password') {
+    if (username === 'admin123' && password === '12345') {
       localStorage.setItem('token', 'dummy-token');
       console.log('Login successful, navigating to dashboard...');
       navigate('/dashboard');
